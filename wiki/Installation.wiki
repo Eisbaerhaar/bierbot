@@ -1,0 +1,14 @@
+= MacOS X =
+
+== Vorbereitung ==
+  * Python 2.5.4 installieren (http://www.python.org/download/releases/2.5.4)
+  * Numpy installieren (http://numpy.scipy.org)
+  * BierBot downloaden
+
+== Installation ==
+  * BierBot ZIP-Datei auspacken, evtl. in ein Verzeichnis Deiner Wahl verschieben.
+
+== BierBot starten ==
+  * Terminal öffnen (Programme -> Dienstprogramme -> Terminal)
+  * in das Verzeichnis von BierBot wechseln ('_cd_ _pfad/zum/BierBot_')
+  * starten mit '_python_ _main.py_'
