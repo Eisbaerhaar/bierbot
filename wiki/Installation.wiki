@@ -2,7 +2,16 @@
 
 == Vorbereitung ==
   * Python 2.5.4 installieren (http://www.python.org/download/releases/2.5.4)
-  * PIL (Python Imaging Library) 1.1.6 installieren
+  * libjepg downloaden, entpacken und installieren ([ftp://ftp.uu.net/graphics/jpeg/jpegsrc.v6b.tar.gz jpegsrc.v6b.tar.gz])
+
+    `% cd jpeg-6b/`
+
+    `% ln -s `*``which glibtool`*`` ./libtool`
+
+    `% setenv MACOSX_DEPLOYMENT_TARGET 10.4`
+
+    `% ./configure --enable-shared && make && sudo make install`
+  * PIL (Python Imaging Library) 1.1.6 installieren (http://pythonmac.org/packages/py25-fat/dmg/PIL-1.1.6-py2.5-macosx10.4-2007-05-18.dmg)
   * Numpy installieren (http://numpy.scipy.org)
   * BierBot downloaden
 
