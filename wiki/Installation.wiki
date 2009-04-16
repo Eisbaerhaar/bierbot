@@ -2,8 +2,12 @@
 
 == Vorbereitung ==
   * Python 2.5.4 installieren (http://www.python.org/download/releases/2.5.4)
+  * PIL (Python Imaging Library) 1.1.6 installieren
   * Numpy installieren (http://numpy.scipy.org)
   * BierBot downloaden
+
+Die meisten Downloads zu den obigen Paketen findet man auch hier:
+http://pythonmac.org/packages/py25-fat/
 
 == Installation ==
   * BierBot ZIP-Datei auspacken, evtl. in ein Verzeichnis Deiner Wahl verschieben.
